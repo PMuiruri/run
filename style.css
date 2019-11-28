@@ -64,7 +64,7 @@ nav ul{
 nav ul li{
   padding: 0 3rem;
   line-height: 8rem;
-  transition: background-color .5s;
+  transition: background-color .5s; 
 }
 
 nav ul li:hover{
@@ -103,7 +103,9 @@ nav ul li:hover{
    position: absolute;
    top:50%;
    left: -5%;
-   transform: translateY(-50%);;
+   transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+  -webkit-transform:translateY(-50%);
  }
 .product-info{
   display: flex;
@@ -151,4 +153,6 @@ nav ul li:hover{
 .discover-btn:hover, .cart-btn:hover{
   box-shadow: 3px 1rem 2rem rgba(0,0,0,0.3);
   transform: translateY(-1rem);
+  -ms-transform: translateY(-1rem);
+ -webkit-transform:translateY(-1rem);
 }
