@@ -64,7 +64,8 @@ nav ul{
 nav ul li{
   padding: 0 3rem;
   line-height: 8rem;
-  transition: background-color .5s; 
+  transition: background-color .15s;
+  transition-timing-function: linear;
 }
 
 nav ul li:hover{
@@ -99,7 +100,7 @@ nav ul li:hover{
    position: relative;
  }
  .tone-2 img{
-   width: 90%;
+   width: 100%;
    position: absolute;
    top:50%;
    left: -5%;
@@ -139,7 +140,7 @@ nav ul li:hover{
   color: #f7f7f6;
   font-size:1.5rem;
   font-weight: 900;
-  transition: all .5s;
+  transition: transform 1s;
 }
 .info-btn{
   display: flex;
@@ -153,6 +154,4 @@ nav ul li:hover{
 .discover-btn:hover, .cart-btn:hover{
   box-shadow: 3px 1rem 2rem rgba(0,0,0,0.3);
   transform: translateY(-1rem);
-  -ms-transform: translateY(-1rem);
- -webkit-transform:translateY(-1rem);
 }
